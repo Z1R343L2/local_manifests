@@ -3,8 +3,6 @@
 <manifest>
   <remote  name="jan"
            fetch="https://github.com/Z1R343L2"
-           sync-c="true"
-           sync-j="4"
            revision="refs/heads/fourteen" />
 
   <project path="device/xiaomi/sweet" remote="jan" name="device_xiaomi_sweet" />
@@ -20,10 +18,4 @@
         
   <remove-project name="platform/packages/modules/Bluetooth" />
   <project path="packages/modules/Bluetooth" name="Z1R343L2/packages_modules_Bluetooth" remote="github" revision="fourteen-qpr3" />
-        
-  <remove-project name="frameworks_base" />
-  <project path="frameworks/base" name="Z1R343L2/frameworks_base" remote="github" revision="fourteen-qpr3" />
-  
-  <remove-project name="packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="Z1R343L2/packages_apps_Settings" remote="github" revision="fourteen-qpr3" />
 </manifest>
